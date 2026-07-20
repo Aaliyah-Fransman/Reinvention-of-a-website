@@ -1,0 +1,1460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Notable Sockwear</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="progressBar"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <i class="fas fa-socks"></i>
+
+          Notable Sockwear
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <a class="btn btn-warning ms-lg-3"> Shop Now </a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active hero-slide slide-one">
+            <div class="carousel-caption">
+              <h1 data-aos="fade-up">Premium Socks</h1>
+
+              <p data-aos="fade-up">
+                Luxury Comfort. Modern Style. Everyday Confidence.
+              </p>
+
+              <a href="#products" class="btn btn-warning btn-lg">
+                Shop Collection
+              </a>
+            </div>
+          </div>
+
+          <div class="carousel-item hero-slide slide-two">
+            <div class="carousel-caption">
+              <h1>New Collection</h1>
+
+              <p>Discover Our Latest Arrivals</p>
+
+              <a href="#products" class="btn btn-primary"> Explore </a>
+            </div>
+          </div>
+
+          <div class="carousel-item hero-slide slide-three">
+            <div class="carousel-caption">
+              <h1>Comfort Meets Fashion</h1>
+
+              <p>Experience Premium Sockwear</p>
+
+              <a href="#contact" class="btn btn-light"> Contact Us </a>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="stats py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-card">
+              <i class="fas fa-users"></i>
+
+              <h2>15K+</h2>
+
+              <p>Happy Customers</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-card">
+              <i class="fas fa-box-open"></i>
+
+              <h2>250+</h2>
+
+              <p>Products</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-card">
+              <i class="fas fa-star"></i>
+
+              <h2>5★</h2>
+
+              <p>Ratings</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-card">
+              <i class="fas fa-award"></i>
+
+              <h2>10+</h2>
+
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="whatsapp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button id="topBtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L60,149.3C120,139,240,117,360,122.7C480,128,600,160,720,181.3C840,203,960,213,1080,197.3C1200,181,1320,139,1380,117.3L1440,96L1440,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <section id="about" class="about py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4" data-aos="fade-right">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/938/original/IMG_8252.jpeg?1784573245"
+              class="img-fluid rounded-4 shadow-lg about-image"
+              alt="About"
+            />
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <span class="section-tag"> ABOUT US </span>
+
+            <h2 class="display-5 fw-bold mt-3">
+              Premium Socks Designed For Everyday Comfort
+            </h2>
+
+            <p class="lead text-muted mt-4">
+              At Notable Sockwear we believe that socks are more than just
+              accessories. They are part of your everyday comfort. Our
+              collections are crafted using premium materials that combine
+              durability, breathability and style.
+            </p>
+
+            <p>
+              Whether you're dressing for work, sports or casual wear, our socks
+              provide unmatched quality, softness and modern fashion.
+            </p>
+
+            <a href="#products" class="btn btn-warning btn-lg mt-3">
+              Explore Collection
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-us py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Why Choose Notable Sockwear?</h2>
+
+          <p class="text-muted">Quality that speaks for itself.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="feature-card text-center" data-aos="zoom-in">
+              <div class="icon-circle">
+                <i class="fas fa-award"></i>
+              </div>
+
+              <h4>Premium Quality</h4>
+
+              <p>
+                Manufactured using high-quality fabrics for long-lasting
+                comfort.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-card text-center"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-circle">
+                <i class="fas fa-truck-fast"></i>
+              </div>
+
+              <h4>Fast Delivery</h4>
+
+              <p>Nationwide delivery with secure packaging.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-card text-center"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-circle">
+                <i class="fas fa-heart"></i>
+              </div>
+
+              <h4>Loved By Customers</h4>
+
+              <p>Thousands of satisfied customers trust our products.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-card text-center"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-circle">
+                <i class="fas fa-leaf"></i>
+              </div>
+
+              <h4>Eco Friendly</h4>
+
+              <p>Produced responsibly using sustainable materials.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <i class="fas fa-box-open"></i>
+
+            <h5>Premium Packaging</h5>
+          </div>
+
+          <div class="col-md-3">
+            <i class="fas fa-shield-heart"></i>
+
+            <h5>Quality Guaranteed</h5>
+          </div>
+
+          <div class="col-md-3">
+            <i class="fas fa-credit-card"></i>
+
+            <h5>Secure Payments</h5>
+          </div>
+
+          <div class="col-md-3">
+            <i class="fas fa-headset"></i>
+
+            <h5>24/7 Support</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="floating-circle circle1"></div>
+
+    <div class="floating-circle circle2"></div>
+
+    <div class="floating-circle circle3"></div>
+
+    <section id="categories" class="categories py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag"> SHOP BY CATEGORY </span>
+
+          <h2 class="display-5 fw-bold">Find Your Perfect Pair</h2>
+
+          <p class="text-muted">
+            Explore our most popular sock collections designed for every
+            occasion.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/947/original/IMG_8260.jpeg?1784573351"
+                  class="img-fluid"
+                  alt="Casual Socks"
+                />
+              </div>
+
+              <div class="category-content">
+                <i class="fas fa-shoe-prints"></i>
+
+                <h4>Casual Socks</h4>
+
+                <p>Comfortable everyday socks with modern designs.</p>
+
+                <a href="#products" class="btn btn-outline-warning">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/945/original/IMG_8258.jpeg?1784573336"
+                  class="img-fluid"
+                  alt="Sports Socks"
+                />
+              </div>
+
+              <div class="category-content">
+                <i class="fas fa-person-running"></i>
+
+                <h4>Sports</h4>
+
+                <p>Maximum support for training and active lifestyles.</p>
+
+                <a href="#products" class="btn btn-outline-warning">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/946/original/IMG_8259.jpeg?1784573344"
+                  class="img-fluid"
+                  alt="Luxury"
+                />
+              </div>
+
+              <div class="category-content">
+                <i class="fas fa-gem"></i>
+
+                <h4>Luxury</h4>
+
+                <p>Premium collections crafted with elegant finishes.</p>
+
+                <a href="#products" class="btn btn-outline-warning">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/943/original/IMG_8256.jpeg?1784573315"
+                  class="img-fluid"
+                  alt="Kids"
+                />
+              </div>
+
+              <div class="category-content">
+                <i class="fas fa-child-reaching"></i>
+
+                <h4>Kids</h4>
+
+                <p>Fun, colourful and durable socks for children.</p>
+
+                <a href="#products" class="btn btn-outline-warning">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h2>🔥 WINTER SALE</h2>
+
+            <p>
+              Get up to
+
+              <strong>40% OFF</strong>
+
+              selected collections this month. Don't miss out!
+            </p>
+          </div>
+
+          <div class="col-lg-4 text-lg-end">
+            <a href="#products" class="btn btn-light btn-lg"> Shop Now </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="best-sellers py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag"> CUSTOMER FAVOURITES </span>
+
+          <h2 class="display-5 fw-bold">Best Sellers</h2>
+
+          <p>Our top-rated socks loved by thousands.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="seller-card">
+              <div class="seller-badge">BEST SELLER</div>
+
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/941/original/IMG_8255.jpeg?1784573296"
+                class="img-fluid"
+              />
+
+              <div class="seller-content">
+                <h4>Premium Cotton Socks</h4>
+
+                <p>★★★★★ (245 Reviews)</p>
+
+                <h3>R149</h3>
+
+                <a href="#products" class="btn btn-warning"> Buy Now </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="seller-card">
+              <div class="seller-badge">HOT</div>
+
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/935/original/IMG_8249.jpeg?1784573211"
+                class="img-fluid"
+              />
+
+              <div class="seller-content">
+                <h4>Performance Sports Socks</h4>
+
+                <p>★★★★★ (189 Reviews)</p>
+
+                <h3>R179</h3>
+
+                <a href="#products" class="btn btn-warning"> Buy Now </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="seller-card">
+              <div class="seller-badge">NEW</div>
+
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/948/original/IMG_8261.jpeg?1784573358"
+                class="img-fluid"
+              />
+
+              <div class="seller-content">
+                <h4>Luxury Executive Collection</h4>
+
+                <p>★★★★★ (310 Reviews)</p>
+
+                <h3>R229</h3>
+
+                <a href="#products" class="btn btn-warning"> Buy Now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax">
+      <div class="overlay">
+        <div class="container text-center">
+          <h2>Walk Further. Walk Better.</h2>
+
+          <p>Premium quality that lasts every step of the journey.</p>
+
+          <a href="#products" class="btn btn-warning btn-lg">
+            Explore Collection
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands py-5">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <div class="col">
+            <i class="fa-solid fa-crown fa-3x"></i>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-medal fa-3x"></i>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-star fa-3x"></i>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-gem fa-3x"></i>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-award fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag"> OUR PRODUCTS </span>
+
+          <h2 class="display-5 fw-bold">Premium Sock Collection</h2>
+
+          <p class="text-muted">
+            Discover our latest styles created for comfort and performance.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge"> NEW </span>
+
+                <button class="wishlist">
+                  <i class="far fa-heart"></i>
+                </button>
+
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/949/original/IMG_8262.jpeg?1784573365"
+                  class="img-fluid"
+                  alt="Premium Cotton Socks"
+                />
+
+                <div class="quick-actions">
+                  <button class="btn btn-dark">
+                    <i class="fas fa-eye"></i>
+
+                    Quick View
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4>Premium Cotton Socks</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <span> (245) </span>
+                </div>
+
+                <p>Ultra soft cotton blend designed for all-day comfort.</p>
+
+                <div class="price">
+                  <span class="old-price"> R199 </span>
+
+                  <h3>R149</h3>
+                </div>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge sale"> SALE </span>
+
+                <button class="wishlist">
+                  <i class="far fa-heart"></i>
+                </button>
+
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/934/original/IMG_8248.jpeg?1784573196"
+                  class="img-fluid"
+                  alt="Sports Socks"
+                />
+
+                <div class="quick-actions">
+                  <button class="btn btn-dark">
+                    <i class="fas fa-eye"></i>
+
+                    Quick View
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4>Performance Sports Socks</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star-half-alt"></i>
+
+                  <span> (189) </span>
+                </div>
+
+                <p>Breathable athletic socks built for active lifestyles.</p>
+
+                <div class="price">
+                  <span class="old-price"> R220 </span>
+
+                  <h3>R179</h3>
+                </div>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge premium"> PREMIUM </span>
+
+                <button class="wishlist">
+                  <i class="far fa-heart"></i>
+                </button>
+
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/951/original/IMG_8264.jpeg?1784573379"
+                  class="img-fluid"
+                  alt="Luxury Socks"
+                />
+
+                <div class="quick-actions">
+                  <button class="btn btn-dark">
+                    <i class="fas fa-eye"></i>
+
+                    Quick View
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4>Luxury Executive Socks</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <i class="fas fa-star"></i>
+
+                  <span> (310) </span>
+                </div>
+
+                <p>Elegant premium socks designed for professionals.</p>
+
+                <div class="price">
+                  <span class="old-price"> R299 </span>
+
+                  <h3>R229</h3>
+                </div>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="more-products py-3">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge"> POPULAR </span>
+
+                <button class="wishlist">
+                  <i class="far fa-heart"></i>
+                </button>
+
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/944/original/IMG_8257.jpeg?1784573322"
+                  class="img-fluid"
+                  alt="Everyday Socks"
+                />
+
+                <div class="quick-actions">
+                  <button
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                  >
+                    <i class="fas fa-eye"></i>
+
+                    Quick View
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4>Everyday Comfort Socks</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+
+                  <span> (156) </span>
+                </div>
+
+                <p>Perfect everyday socks with extra softness.</p>
+
+                <h3>R129</h3>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge sale"> 30% OFF </span>
+
+                <button class="wishlist">
+                  <i class="far fa-heart"></i>
+                </button>
+
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/939/original/IMG_8253.jpeg?1784573261"
+                  class="img-fluid"
+                  alt="Winter Socks"
+                />
+
+                <div class="quick-actions">
+                  <button
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                  >
+                    <i class="fas fa-eye"></i>
+
+                    Quick View
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4>Winter Wool Collection</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+
+                  <span> (421) </span>
+                </div>
+
+                <p>Warm insulated socks designed for cold weather.</p>
+
+                <h3>R189</h3>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="product-badge premium"> LIMITED </span>
+
+                <button class="wishlist">
+                  <i class="far fa-heart"></i>
+                </button>
+
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/933/original/IMG_8246.jpeg?1784573185"
+                  class="img-fluid"
+                  alt="Designer Socks"
+                />
+
+                <div class="quick-actions">
+                  <button
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                  >
+                    <i class="fas fa-eye"></i>
+
+                    Quick View
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4>Designer Collection</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+
+                  <span> (98) </span>
+                </div>
+
+                <p>Exclusive patterns for a unique style.</p>
+
+                <h3>R259</h3>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="productModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Premium Sock Collection</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <img
+                  src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/936/original/IMG_8250.jpeg?1784573223"
+                  class="img-fluid rounded"
+                  alt="Product"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <h3>Luxury Comfort Socks</h3>
+
+                <div class="rating mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p>
+                  Made with premium materials providing maximum comfort and
+                  durability.
+                </p>
+
+                <h2>R149</h2>
+
+                <select class="form-select mb-3">
+                  <option>Choose Size</option>
+
+                  <option>Small</option>
+
+                  <option>Medium</option>
+
+                  <option>Large</option>
+
+                  <option>XL</option>
+                </select>
+
+                <button class="btn btn-warning w-100">
+                  <i class="fas fa-cart-shopping"></i>
+
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="testimonials py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag"> CUSTOMER REVIEWS </span>
+
+          <h2 class="display-5 fw-bold">What Our Customers Say</h2>
+
+          <p class="text-muted">
+            Thousands of customers love our comfort and quality.
+          </p>
+        </div>
+
+        <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="review-card text-center">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/953/original/IMG_8265.jpeg?1784573395"
+                  class="customer-image"
+                  alt="Customer"
+                />
+
+                <h4>Mike Johnson</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p>
+                  "These socks are incredibly comfortable. The quality is much
+                  better than anything I have bought before."
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="review-card text-center">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/892/original/IMG_8207.jpeg?1784405081"
+                  class="customer-image"
+                  alt="Customer"
+                />
+
+                <h4>Michael Jones</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p>
+                  "Fast delivery and amazing designs. I ordered three pairs and
+                  loved them."
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="review-card text-center">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/890/original/IMG_8205.jpeg?1784405051"
+                  class="customer-image"
+                  alt="Customer"
+                />
+
+                <h4>Jessica Brown</h4>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <p>
+                  "The luxury collection feels premium. Highly recommended."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#reviewCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"> </span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            data-bs-target="#reviewCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"> </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h2>Step Into Comfort Today</h2>
+
+            <p>
+              Upgrade your sock collection with premium styles designed for
+              everyday life.
+            </p>
+          </div>
+
+          <div class="col-lg-4 text-lg-end">
+            <a href="#products" class="btn btn-warning btn-lg">
+              Shop Collection
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter py-5">
+      <div class="container">
+        <div class="newsletter-box">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h2>Join Our Newsletter</h2>
+
+              <p>
+                Receive exclusive offers, new releases and special discounts.
+              </p>
+            </div>
+
+            <div class="col-lg-6">
+              <form class="newsletter-form">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+
+                  <button class="btn btn-warning">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-section py-4">
+      <div class="container text-center">
+        <h4>Follow Notable Sockwear</h4>
+
+        <div class="social-icons mt-3">
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-tiktok"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-tag"> CONTACT US </span>
+
+          <h2 class="display-5 fw-bold">Get In Touch</h2>
+
+          <p class="text-muted">Have questions? Our team is ready to help.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="contact-card">
+              <div class="contact-item">
+                <i class="fas fa-location-dot"></i>
+
+                <div>
+                  <h5>Address</h5>
+
+                  <p>Johannesburg, South Africa</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+
+                <div>
+                  <h5>Phone</h5>
+
+                  <p>+27 00 050 0980</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+
+                <div>
+                  <h5>Email</h5>
+
+                  <p>info@notablesockwear.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+
+                <div>
+                  <h5>Opening Hours</h5>
+
+                  <p>Mon - Sat: 08:00 - 17:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="contact-form">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Subject"
+              />
+
+              <textarea
+                class="form-control mb-3"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+
+              <button class="btn btn-warning btn-lg">
+                <i class="fas fa-paper-plane"></i>
+
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h3>
+              <i class="fas fa-socks"></i>
+
+              Notable Sockwear
+            </h3>
+
+            <p>
+              Premium socks designed for comfort, style and everyday confidence.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5>Quick Links</h5>
+
+            <ul>
+              <li>
+                <a href="#home"> Home </a>
+              </li>
+
+              <li>
+                <a href="#about"> About </a>
+              </li>
+
+              <li>
+                <a href="#products"> Products </a>
+              </li>
+
+              <li>
+                <a href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5>Customer Service</h5>
+
+            <ul>
+              <li>Shipping Information</li>
+
+              <li>Returns Policy</li>
+
+              <li>Size Guide</li>
+
+              <li>FAQs</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h5>Follow Us</h5>
+
+            <div class="footer-social">
+              <a href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="#">
+                <i class="fab fa-tiktok"></i>
+              </a>
+
+              <a href="#">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="text-center">
+          <p>© 2026 Notable Sockwear. All Rights Reserved.</p>
+
+          <p>
+            Designed & Developed by
+
+            <strong> Aaliyah Fransman </strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="topBtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+
+        once: true,
+      });
+
+      window.addEventListener("scroll", function () {
+        let scrollTop = document.documentElement.scrollTop;
+
+        let height =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+
+        let progress = (scrollTop / height) * 100;
+
+        document.getElementById("progressBar").style.width = progress + "%";
+      });
+
+      let topButton = document.getElementById("topBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          topButton.style.display = "block";
+        } else {
+          topButton.style.display = "none";
+        }
+      });
+
+      topButton.onclick = function () {
+        window.scrollTo({
+          top: 0,
+
+          behavior: "smooth",
+        });
+      };
+    </script>
+  </body>
+</html>
