@@ -1293,7 +1293,7 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: #111111fb;
 }
 
 ::-webkit-scrollbar-thumb {
